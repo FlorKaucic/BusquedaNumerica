@@ -1,6 +1,6 @@
 package busquedanumerica;
 
-public class BusquedaNumerica {
+public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// hacer esto mas bonito
@@ -14,6 +14,10 @@ public class BusquedaNumerica {
 		for (int i = 0; i < m.length(); i++)
 			mvec[(int)(m.charAt(i))-48]++;
 		
+		for (int i = 0; i < 10; i++)
+			System.out.println("Pos "+i+": "+mvec[i]);
+		
+				
 		/*
 		 * hacer la clase para los metodos:
 		 * constructor con otro vec
